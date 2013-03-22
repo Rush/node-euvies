@@ -38,8 +38,8 @@ function checkVat(input, cb) {
 
 			var m;
 			m = raw.match(/<address>((?:\s|\S)+)<\/address>/); // parsed XML output discards the newline ..
-			res.name = res.name[0];
 			// split address into multiple lines
+			res.name = res.name[0];
 			res.address = m[1].split('\n');
 			res.address = res.address.filter(function(line) {
 				return line.length;
