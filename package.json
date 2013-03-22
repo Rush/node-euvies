@@ -1,5 +1,5 @@
 {
-  "name": "node-euvies",
+  "name": "euvies",
   "version": "0.0.1",
   "description": "Library for contacting the European Union VAT Information Exchange System.",
   "main": "index.js",
