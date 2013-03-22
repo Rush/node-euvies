@@ -9,10 +9,10 @@ How to use
     var euVies = require('euvies');
     euVies.checkVat({countryCode: "PL", vatNumber: "5842656844"}, function(err, res) {
       if(err) return console.log(err);
-      return res;
+      console.log(res);
     });
 
-Return:
+Should print:
 
     { countryCode: 'PL',
     vatNumber: '5842656844',
