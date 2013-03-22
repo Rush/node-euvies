@@ -4,9 +4,9 @@
   "description": "Library for contacting the European Union VAT Information Exchange System.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js""
+    "test": "mocha test.js"
   },
-  "repository": "",
+  "repository": "git://github.com/RushPL/node-euvies.git",
   "author": "Damian Kaczmarek",
   "license": "BSD",
   "dependencies": {
