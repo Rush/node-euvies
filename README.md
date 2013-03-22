@@ -1,7 +1,7 @@
 node-euvies
 ===========
 
-Resolve EU VAT identification numbers to company details.
+Resolve EU VAT identification numbers to company details. It relies on European Union WSDL service at URL http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl
 
 Installation
 ===========
