@@ -1,0 +1,15 @@
+{
+  "name": "node-euvies",
+  "version": "0.0.1",
+  "description": "Library for contacting the European Union VAT Information Exchange System.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js""
+  },
+  "repository": "",
+  "author": "Damian Kaczmarek",
+  "license": "BSD",
+  "dependencies": {
+    "soap": "git://github.com/RushPL/node-soap.git"
+  }
+}
